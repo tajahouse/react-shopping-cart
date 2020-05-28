@@ -30,7 +30,7 @@ function App() {
 			<ProductContext.Provider value={{products, addItem}} >
 			<CartContext.Provider value={{ cart, removeItem} }>
 				<Navigation cart={cart} />
-
+				
 				{/* Routes */}
 				<Route exact path="/">
 					<Products />
